@@ -1,32 +1,41 @@
 body {
-    text-align: center;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  #word-container {
-    margin: 20px auto;
-    letter-spacing: 10px;
-  }
-  
-  #word {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  #guess-container {
-    margin: 20px auto;
-  }
-  
-  #result {
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  
-  #wrong-guess {
-    margin-top: 20px;
-    font-weight: bold;
-  }
+  text-align: center;
+  background-image: url("images/game-win.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+
+h1 {
+  color: magenta;
+}
+
+#word-container {
+  color: orange;
+  margin: 20px auto;
+  letter-spacing: 10px;
+}
+
+#word {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#guess-container {
+  color: blue;
+  margin: 20px auto;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#wrong-guess {
+  color: red;
+  margin-top: 20px;
+  font-weight: bold;
+}
   
