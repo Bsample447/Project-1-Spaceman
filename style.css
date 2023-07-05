@@ -8,14 +8,22 @@ body {
 
 
 h1 {
-  color: magenta;
+  /* Title */
+  color: white;
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
 }
 
 #word-container {
-  color: orange;
+  color: yellow;
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
   margin: 20px auto;
   letter-spacing: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
 }
+
 
 #word {
   font-size: 50px;
@@ -23,8 +31,25 @@ h1 {
 }
 
 #guess-container {
+  /* Container for guess input */
   color: blue;
   margin: 20px auto;
+  text-transform: fullsize;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+#message {
+  font-size: 18px;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  /* Outline effect */
+  color: greenyellow;
+  font-weight: bold;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100px;
 }
 
 #result {
@@ -34,6 +59,11 @@ h1 {
 
 #wrong-guess {
   color: red;
-  margin-top: 20px;
+  margin: 20px auto;
   font-weight: bold;
+  text-align: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
 }

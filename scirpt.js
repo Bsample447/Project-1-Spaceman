@@ -74,6 +74,7 @@ function guessLetter() {
       document.body.style.backgroundSize = "cover";
       document.body.style.backgroundRepeat = "no-repeat";
       document.body.style.backgroundPosition = "center center";
+
       document.getElementById("submit").disabled = true;
     } else {
       displayMessage("Wrong guess. Try again!");
