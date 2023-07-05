@@ -113,4 +113,3 @@ document.getElementById("submit").addEventListener("click", guessLetter);
 
 startGame();
 
-
