@@ -1,8 +1,11 @@
-const words = ["apple", "banana", "orange", "strawberry", "grape"];
+const words = ["rocket", "warp", "nebula", "asteroid", "ship"];
 let selectedWord = "";
 let guessedLetters = [];
 let wrongGuessCount = 0;
 const maxWrongGuessCount = 5;
+
+
+
 
 function startGame() {
   // Reset variables
@@ -67,6 +70,10 @@ function guessLetter() {
 
     if (wrongGuessCount >= maxWrongGuessCount) {
       displayMessage("Game Over! You exceeded the maximum number of wrong guesses.");
+      document.body.style.backgroundImage = 'url("images/game-over.jpg")';
+      document.body.style.backgroundSize = "cover";
+      document.body.style.backgroundRepeat = "no-repeat";
+      document.body.style.backgroundPosition = "center center";
       document.getElementById("submit").disabled = true;
     } else {
       displayMessage("Wrong guess. Try again!");
@@ -74,6 +81,10 @@ function guessLetter() {
   }
 
   if (checkWin()) {
+    document.body.style.backgroundImage = 'url("game-win.jpg")';
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundPosition = "center center";
     displayMessage("Congratulations! You guessed the word!");
     document.getElementById("submit").disabled = true;
   }
@@ -84,16 +95,21 @@ function guessLetter() {
 function checkWin() {
   let wordContainer = document.getElementById("word");
   let letters = wordContainer.getElementsByTagName("span");
-
   for (let i = 0; i < letters.length; i++) {
     if (letters[i].textContent === "_") {
       return false;
     }
   }
-
+  if (document.body.style.backgroundImage !== 'url("images/game-win.jpg")') {
+    document.body.style.backgroundImage = 'url("images/game-win.jpg")';
+    document.getElementById("submit").disabled = true;
+    displayMessage("Congratulations! You guessed the word!");
+  }
   return true;
 }
 
 document.getElementById("submit").addEventListener("click", guessLetter);
 
 startGame();
+
+

@@ -1,11 +1,10 @@
 body {
   text-align: center;
   background-image: url("images/game-win.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center
 }
-
 
 
 h1 {
@@ -19,7 +18,7 @@ h1 {
 }
 
 #word {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -38,4 +37,3 @@ h1 {
   margin-top: 20px;
   font-weight: bold;
 }
-  
