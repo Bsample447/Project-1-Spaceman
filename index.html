@@ -2,6 +2,13 @@
 <html>
 
 <head>
+  <style>
+    @font-face {
+      font-family: "CustomFont";
+      src: url("SpaceGame-ywxX2.ttf") format("truetype");
+    }
+  </style>
+
   <title>Spaceman+ by Brandon</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -15,10 +22,13 @@
     <label for="guess">Guess a letter:</label>
     <input type="text" id="guess" maxlength="1">
     <button id="submit">Submit</button>
+    <button id="reset-word" onclick="startGame()">New Word</button>
   </div>
   <div id="message"></div>
   <div id="wrong-guess">
     <p>Wrong Guesses Left: <span id="wrong-guess-count"></span></p>
+    <button id="reset-game">Reset Game</button>
+
   </div>
 
   <script src="script.js"></script>

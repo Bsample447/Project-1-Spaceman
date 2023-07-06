@@ -83,7 +83,7 @@ function guessLetter() {                                      // Function to han
 
   if (checkWin()) {                                               // If the player has won
     document.body.style.backgroundImage = 'url("game-win.jpg")';  // Set the background image to the game win image
-    document.body.style.backgroundSize = "center";
+    document.body.style.backgroundSize = "cover";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center center";
     displayMessage("Congratulations! You guessed the word!");     // Display a congratulations message
@@ -110,5 +110,6 @@ function checkWin() {                                            // Function to 
 }
 
 document.getElementById("submit").addEventListener("click", guessLetter);    // Add a click event listener to the submit button
+
 
 startGame();                                                      // Call the startGame function to start the game.
