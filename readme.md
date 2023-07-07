@@ -1,3 +1,7 @@
+https://bsample447.github.io/Project-1-Spaceman/   < our game link!
+
+
+
 created a readme to hold sudo code, using this as a checklist
 
 1. Create an HTML file with the necessary structure:
