@@ -5,11 +5,11 @@ But....space travel isn't quick, even at light speed these things take a while, 
 what else is there to do, but play word guessing games that humans have played for years...   but this time   ..in space.
 
 Screenshots
-https://i.imgur.com/l92ez7c.png (game start screenshot)
+https://imgur.com/l92ez7c (game start screenshot)
 
-https://i.imgur.com/tu0PJcJ.png (game over screenshot)
+https://imgur.com/tu0PJcJ (game over screenshot)
 
-https://i.imgur.com/lsMMpm2.png (game win screenshot)
+https://imgur.com/lsMMpm2 (game win screenshot)
 
 
 Technologies Used:
@@ -21,7 +21,7 @@ and a custom "Space Game" font from
 https://befonts.com/space-game-font.html
 
 Getting Started
-Click to play our game: https://bsample447.github.io/Project-1-Spaceman/   < 
+[Click to play Spaceman](https://bsample447.github.io/Project-1-Spaceman/)
 
 back up environment in replit: https://replit.com/@BrandonSample/testing-for-project-1    <
 

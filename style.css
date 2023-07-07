@@ -48,7 +48,7 @@ h1 {
 #message {
   font-size: 18px;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  /* Outline effect */
+  /* Outline effect, ill be using this alot to help make text pop from the background. */
   color: yellow;
   font-weight: bold;
   margin: 20px auto;
@@ -67,6 +67,7 @@ h1 {
   margin: 20px auto;
   font-weight: bold;
   text-align: auto;
+  font-size: 22px;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
   border-radius: 10px;

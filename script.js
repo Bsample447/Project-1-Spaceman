@@ -1,4 +1,4 @@
-const words = ["rocket", "warp", "nebula", "asteroid", "ship", "stars", "space"]; // Array of words to start from
+const words = ["rocket", "warp", "nebula", "asteroid", "ship", "stars", "space", "lightspeed", "explore"]; // Array of words to start from
 let selectedWord = ""; // Selected word to guess
 let guessedLetters = []; // Array of guessed letters
 let wrongGuessCount = 0; // Number of wrong guesses
