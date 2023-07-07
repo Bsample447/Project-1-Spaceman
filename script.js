@@ -82,7 +82,7 @@ function guessLetter() {                                      // Function to han
   }
 
   if (checkWin()) {                                               // If the player has won
-    document.body.style.backgroundImage = 'url("images/game-win.jpg")';  // Set the background image to the game win image
+    document.body.style.backgroundImage = 'url("game-win.jpg")';  // Set the background image to the game win image
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center center";
