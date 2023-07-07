@@ -23,9 +23,7 @@ https://befonts.com/space-game-font.html
 Getting Started
 Click to play our game: https://bsample447.github.io/Project-1-Spaceman/   < 
 
-back up enviroment in replit: https://replit.com/@BrandonSample/testing-for-project-1    <
-
-[Click to View Project Planning](your Trello url here) [Click to Play Connect Four!](your deployment url here)
+back up environment in replit: https://replit.com/@BrandonSample/testing-for-project-1    <
 
 Next Steps / IceBox features
 

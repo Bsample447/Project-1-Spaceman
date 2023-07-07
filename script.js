@@ -70,7 +70,7 @@ function guessLetter() {                                      // Function to han
 
     if (wrongGuessCount >= maxWrongGuessCount) {              // If the maximum number of wrong guesses has been reached
       displayMessage("Game Over! You exceeded the maximum number of wrong guesses.");  // Display a game over message
-      document.body.style.backgroundImage = 'url("images/game-over.jpg")';             // Set the background image to the game over image
+      document.body.style.backgroundImage = 'url("Images/game-over.jpg")';             // Set the background image to the game over image
       document.body.style.backgroundSize = "center";
       document.body.style.backgroundRepeat = "no-repeat";
       document.body.style.backgroundPosition = "center center";
@@ -82,7 +82,7 @@ function guessLetter() {                                      // Function to han
   }
 
   if (checkWin()) {                                               // If the player has won
-    document.body.style.backgroundImage = 'url("images/game-win.jpg")';  // Set the background image to the game win image
+    document.body.style.backgroundImage = 'url("Images/game-win.jpg")';  // Set the background image to the game win image
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center center";
@@ -101,8 +101,8 @@ function checkWin() {                                            // Function to 
       return false;                                              // Return false, because the player has not won yet
     }
   }
-  if (document.body.style.backgroundImage !== 'url("images/game-win.jpg")') {  // If the background image is not the game win image
-    document.body.style.backgroundImage = 'url("images/game-win.jpg")';        // Set the background image to the game win image
+  if (document.body.style.backgroundImage !== 'url("Images/game-win.jpg")') {  // If the background image is not the game win image
+    document.body.style.backgroundImage = 'url("Images/game-win.jpg")';        // Set the background image to the game win image
     document.getElementById("submit").disabled = true;                         // Disable the submit button
     displayMessage("Congratulations! You guessed the word!");                 // Display a congratulations message
   }
