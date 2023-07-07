@@ -72,3 +72,43 @@ h1 {
   border-radius: 10px;
   width: 400px;
 }
+
+#submit {
+  background-color: red; 
+  border: none; 
+  color: white; 
+  padding: 5px 5px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  cursor: pointer;
+  border-radius: 4px; 
+}
+
+#reset-word {
+  background-color: blue; 
+  border: none; 
+  color: white; 
+  padding: 5px 5px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  cursor: pointer;
+  border-radius: 4px; 
+}
+
+
+#reset-game {
+  background-color: green; 
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  cursor: pointer;
+  border-radius: 4px; 
+}
