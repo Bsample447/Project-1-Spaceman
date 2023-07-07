@@ -111,5 +111,12 @@ function checkWin() {                                            // Function to 
 
 document.getElementById("submit").addEventListener("click", guessLetter);    // Add a click event listener to the submit button
 
+document.getElementById("reset-game").addEventListener("click", function() {     // Add a click event listener to the reset-game button.
+  location.reload();                                                             // Reload the page.
+});
+
+document.getElementById("reset-word").addEventListener("click", startGame);      // Add a click event listener to the reset-word button.
+
+
 
 startGame();                                                      // Call the startGame function to start the game.
