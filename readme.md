@@ -5,11 +5,11 @@ But....space travel isn't quick, even at light speed these things take a while, 
 what else is there to do, but play word guessing games that humans have played for years...   but this time   ..in space.
 
 Screenshots
-[Imgur](https://i.imgur.com/l92ez7c.png) (game start screenshot)
+![Game start](https://i.imgur.com/l92ez7c.png) (game start screenshot)
 
-[Imgur](https://i.imgur.com/tu0PJcJ.png) (game over screenshot)
+![Game over](https://i.imgur.com/tu0PJcJ.png) (game over screenshot)
 
-[Imgur](https://i.imgur.com/lsMMpm2.png) (game win screenshot)
+![Game win](https://i.imgur.com/lsMMpm2.png) (game win screenshot)
 
 
 Technologies Used:
